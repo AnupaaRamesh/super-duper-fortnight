@@ -1,3 +1,11 @@
+#Considering the following sample results of a case-control study for a disease, write a Perl script 
+#that study each position (assuming all positions are SNP positions)
+#reporting the allele with the maximum odds ratio. 
+#You need to calculate the odds ratio for each allele, then report the allele with the maximum
+#odds ratio).
+#In case, an allele with an odds ratio > 1.5 is found for a position, report that this position is
+#associated with the disease.
+#########################################################################################################
 #!/usr/bin/perl
 use strict;
 use diagnostics;
